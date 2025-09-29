@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kwality Wall's | Premium Ice Cream</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="logo.jpg">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="navbar-container container">
+            <div class="logo">
+                <div class="logo-avatar"><img src="logo.jpg" alt="Kwality Wall's logo"></div>
+                <div class="logo-text">Kwality Wall's</div>
+            </div>
+            <button class="mobile-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link active">Home</a>
+                </li>
+                <li class="nav-item"><a href="products.html" class="nav-link">Products</a></li>
+                <li class="nav-item"><a href="about.html" class="nav-link">About Kwality Wall's</a></li>
+                <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                <li class="nav-item">
+                    <a href="games.html" class="nav-link">Games</a>
+                </li>
+                <li class="nav-item">
+                    <a href="signup.html" class="nav-link">Sign Up</a>
+                </li>
+                <li class="nav-item">
+                    <a href="terms.html" class="nav-link">Terms & Conditions</a>
+                </li>
+                <li class="nav-item nav-search">
+                    <form class="nav-search-form" onsubmit="return false;">
+                        <input type="text" class="nav-search-input" placeholder="Search flavors..." aria-label="Search flavors">
+                        <button class="nav-search-btn" aria-label="Search"><i class="fas fa-search"></i></button>
+                    </form>
+                </li>
+                <li class="nav-item">
+                    <button class="theme-toggle">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                </li>
+                <li class="nav-item cta-item">
+                    <a href="contact.html#contact" class="btn btn-outline">Find a Store</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <video class="hero-video" autoplay muted loop playsinline>
+            <source src="background.mp4" type="video/mp4">
+        </video>
+        <div class="hero-content">
+            <h1>Bringing Smiles, One Scoop at a Time!</h1>
+            <p>Welcome to Kwality Wall's – where every bite is a celebration of joy, flavor, and childhood memories.</p>
+            <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap;">
+                <a href="explore.html" class="btn hero-btn">🍦 Explore Flavours</a>
+                <a href="find-us.html" class="btn btn-outline">📍 Find Us Near You</a>
+            </div>
+            <div class="hero-badges">
+                <span class="badge"><i class="fas fa-seedling"></i> Natural Ingredients</span>
+                <span class="badge"><i class="fas fa-ice-cream"></i> Creamy Texture</span>
+                <span class="badge"><i class="fas fa-star"></i> Loved Across India</span>
+            </div>
+        </div>
+        <div class="floating-scoop scoop-1"></div>
+        <div class="floating-scoop scoop-2"></div>
+        <div class="floating-scoop scoop-3"></div>
+        <div class="floating-scoop scoop-4"></div>
+    </section>
+    <div class="section-divider">
+        <svg viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true">
+            <path d="M0,64L60,69.3C120,75,240,85,360,96C480,107,600,117,720,106.7C840,96,960,64,1080,69.3C1200,75,1320,117,1380,138.7L1440,160L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path>
+        </svg>
+    </div>
+
+    <!-- Features Section -->
+    <section class="section" id="features">
+        <div class="container">
+            <div class="section-title">
+                <h2>Why You'll Love Us</h2>
+            </div>
+            <div class="reveal" style="max-width:900px;margin:0 auto 26px auto;text-align:center;opacity:.92;">
+                <h3 style="font-family: var(--font-display); color: var(--primary-color); margin-bottom: 10px; font-size:1.4rem;">Our Promise</h3>
+                <p>At Kwality Wall's, we believe ice cream is more than just a dessert – it’s happiness in a cone, a burst of flavor, and a moment of magic. Made with love and the finest ingredients, our ice creams are crafted to cool your soul and lift your spirit.</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-seedling"></i></div>
+                    <h3>Made from premium, natural ingredients</h3>
+                    <p>High-quality milk, cream, and natural flavors for an indulgent experience.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-ice-cream"></i></div>
+                    <h3>Perfectly creamy texture</h3>
+                    <p>From iconic cones to bars, every scoop is rich, smooth, and dreamy.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-bolt"></i></div>
+                    <h3>Wide range of delightful flavors</h3>
+                    <p>Chocolate, fruit, premium, sticks, and party packs—there’s a treat for everyone.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-heart"></i></div>
+                    <h3>A trusted name in every Indian home</h3>
+                    <p>Decades of craftsmanship dedicated to bringing joy in every bite.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="section" id="products">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Products</h2>
+            </div>
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="cornetto.jpg" alt="Cornetto" loading="lazy">
+                    </div>
+                    <div class="product-info">
+                        <h3>Cornetto</h3>
+                        <p>Crispy cone filled with delicious ice cream and topped with rich chocolate</p>
+                        <div class="product-price">₹80</div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="img.jpg" alt="Cups" loading="lazy">
+                    </div>
+                    <div class="product-info">
+                        <h3>Cups</h3>
+                        <p>Creamy ice cream in convenient cups with a variety of flavors</p>
+                        <div class="product-price">₹60</div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="family.jpg" alt="Family Packs" loading="lazy">
+                    </div>
+                    <div class="product-info">
+                        <h3>Family Packs</h3>
+                        <p>Share the joy with our family-sized tubs of premium ice cream</p>
+                        <div class="product-price">₹350</div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="logo3.jpg" alt="Feast" loading="lazy">
+                    </div>
+                    <div class="product-info">
+                        <h3>Feast</h3>
+                        <p>Chocolate-coated ice cream bar with a crunchy wafer center</p>
+                        <div class="product-price">₹90</div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="sunay.jpg" alt="Sundae" loading="lazy">
+                    </div>
+                    <div class="product-info">
+                        <h3>Sundae</h3>
+                        <p>Rich sundae with syrups, nuts, and cherries for a perfect finish</p>
+                        <div class="product-price">₹110</div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="cake.jpg" alt="Ice Cream Cake" loading="lazy">
+                    </div>
+                    <div class="product-info">
+                        <h3>Ice Cream Cake</h3>
+                        <p>Layered ice cream cake for celebrations and special moments</p>
+                        <div class="product-price">₹450</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+        <div class="container">
+            <div class="section-title">
+                <h2>About Kwality Wall's</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Our Story</h3>
+                    <p>Kwality Wall's has been bringing joy to millions of Indians since 1956. Our journey began with a simple mission: to create the finest quality ice cream using the best ingredients.</p>
+                    <p>Over the decades, we've introduced innovative products that have become household favorites, from the iconic Cornetto to the delightful Feast.</p>
+                    <p>Today, we continue to innovate while staying true to our commitment to quality, bringing smiles to faces across the country.</p>
+                    <a href="#" class="btn">Learn More</a>
+                </div>
+                <div class="about-img">
+                    <img src="https://images.unsplash.com/photo-1516559828984-fb3b99548b21?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" alt="Kwality Wall's History">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section" id="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Contact Us</h2>
+            </div>
+            <div class="contact-container">
+                <div class="contact-form">
+                    <h3>Get in Touch</h3>
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" class="form-control" placeholder="Your Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" class="form-control" placeholder="Your Email">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" class="form-control" placeholder="Your Message"></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+                <div class="faq-section">
+                    <h3>Frequently Asked Questions</h3>
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            Where can I find Kwality Wall's products?
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            Our products are available at all major supermarkets, convenience stores, and ice cream parlors across India. You can also use our store locator on the website to find the nearest outlet.
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            Do you offer dairy-free options?
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            Currently, we don't have dedicated dairy-free options, but we're constantly working on expanding our product range to cater to different dietary needs.
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            How should I store Kwality Wall's ice cream?
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            For best quality, store our ice cream at -18°C or below. Make sure to keep the lid tightly closed to prevent ice crystals from forming.
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            Are your products suitable for vegetarians?
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            Yes, all Kwality Wall's products are suitable for vegetarians. We use vegetable-based stabilizers and emulsifiers in our recipes.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Games Section -->
+    <section class="section" id="games">
+        <div class="container">
+            <div class="section-title">
+                <h2>Ice Cream Memory Match</h2>
+            </div>
+            <div class="game-controls">
+                <button class="btn game-restart">Restart</button>
+                <div class="game-stats">
+                    <span>Moves: <strong class="game-moves">0</strong></span>
+                    <span>Time: <strong class="game-time">0s</strong></span>
+                </div>
+            </div>
+            <div class="memory-grid" aria-label="Memory Match Grid"></div>
+            <div class="game-message" role="status" aria-live="polite"></div>
+        </div>
+    </section>
+
+    <!-- Dessert Carousel -->
+    <section class="section section-carousel">
+        <div class="container">
+            <div class="section-title"><h2>More Desserts</h2></div>
+        </div>
+        <div class="carousel">
+            <button class="carousel-btn prev" aria-label="Previous"><i class="fas fa-chevron-left"></i></button>
+            <div class="carousel-track">
+                <div class="carousel-item"><img src="img.jpg" alt="Cup" loading="lazy"><span>Cup</span></div>
+                <div class="carousel-item"><img src="cornetto.jpg" alt="Cornetto" loading="lazy"><span>Cornetto</span></div>
+                <div class="carousel-item"><img src="family.jpg" alt="Family Pack" loading="lazy"><span>Family Pack</span></div>
+                <div class="carousel-item"><img src="sunay.jpg" alt="Sundae" loading="lazy"><span>Sundae</span></div>
+                <div class="carousel-item"><img src="cake.jpg" alt="Cake" loading="lazy"><span>Cake</span></div>
+                <div class="carousel-item"><img src="stick.jpg" alt="Stick" loading="lazy"><span>Stick</span></div>
+            </div>
+            <button class="carousel-btn next" aria-label="Next"><i class="fas fa-chevron-right"></i></button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Kwality Wall's</h3>
+                    <p>Bringing joy and happiness through delicious ice cream since 1956.</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="terms.html">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Products</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Cornetto</a></li>
+                        <li><a href="#">Cups</a></li>
+                        <li><a href="#">Family Packs</a></li>
+                        <li><a href="#">Feast</a></li>
+                        <li><a href="#">Kids Range</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe to our newsletter for the latest updates and offers.</p>
+                    <form class="newsletter-form">
+                        <input type="email" class="newsletter-input" placeholder="Your Email">
+                        <button type="submit" class="newsletter-btn">
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Kwality Wall’s. All Rights Reserved. | Privacy Policy | Terms & Conditions — Made with ❤ and lots of ice cream.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Chatbot Widget -->
+    <button class="chatbot-toggle" aria-label="Open chat">
+        <i class="fas fa-comments"></i>
+    </button>
+    <div class="chatbot" aria-hidden="true">
+        <div class="chatbot-header">
+            <span>KW Assistant</span>
+            <button class="chatbot-close" aria-label="Close chat"><i class="fas fa-times"></i></button>
+        </div>
+        <div class="chatbot-body">
+            <div class="chatbot-messages"></div>
+        </div>
+        <form class="chatbot-input" onsubmit="return false;">
+            <input type="text" class="chatbot-text" placeholder="Ask about flavors, stores, hours..." aria-label="Chat input">
+            <button class="chatbot-send" aria-label="Send"><i class="fas fa-paper-plane"></i></button>
+        </form>
+    </div>
+
+    <!-- Back To Top Button -->
+    <button class="back-to-top" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>

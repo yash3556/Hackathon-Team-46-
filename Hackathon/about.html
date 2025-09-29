@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About | Kwality Wall's</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-container container">
+            <div class="logo"><div class="logo-avatar"><img src="logo.jpg" alt="Kwality Wall's logo"></div><div class="logo-text">Kwality Wall's</div></div>
+            <button class="mobile-toggle"><i class="fas fa-bars"></i></button>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="products.html" class="nav-link">Products</a></li>
+                <li class="nav-item"><a href="about.html" class="nav-link active">About Kwality Wall's</a></li>
+                <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                <li class="nav-item"><a href="games.html" class="nav-link">Games</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Sign Up</a></li>
+                <li class="nav-item"><a href="terms.html" class="nav-link">Terms & Conditions</a></li>
+                <li class="nav-item nav-search">
+                    <form class="nav-search-form" onsubmit="return false;">
+                        <input type="text" class="nav-search-input" placeholder="Search flavors..." aria-label="Search flavors">
+                        <button class="nav-search-btn" aria-label="Search"><i class="fas fa-search"></i></button>
+                    </form>
+                </li>
+                <li class="nav-item"><button class="theme-toggle"><i class="fas fa-moon"></i></button></li>
+                <li class="nav-item cta-item"><a href="contact.html#contact" class="btn btn-outline">Find a Store</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="section" id="about" style="padding-top:120px;">
+        <div class="container">
+            <div class="section-title"><h2>About Kwality Wall's</h2></div>
+            <div class="about-content">
+                <div class="about-text" id="about-us">
+                    <h3>About Kwality Wall's</h3>
+                    <p>Kwality Wall’s is more than just an ice cream brand – it's a tradition of taste and quality that generations have grown up loving. Blending classic favorites with modern twists, our mission is to spread smiles with every scoop.</p>
+                    <p>Founded with a vision to make joy accessible to all, Kwality Wall’s is proud to serve a wide range of customers – from little kids on sunny afternoons to grandparents reliving sweet memories.</p>
+                    <h3 style="margin-top:18px;">Our Values</h3>
+                    <ul style="margin-left:18px;">
+                        <li>Quality without compromise</li>
+                        <li>Innovation in every flavour</li>
+                        <li>Sustainable & responsible production</li>
+                        <li>Community-first approach</li>
+                    </ul>
+                    <a href="products.html" class="btn">Browse Products</a>
+                </div>
+                <div class="about-img"><img src="https://images.unsplash.com/photo-1516559828984-fb3b99548b21?auto=format&fit=crop&w=600&q=80" alt="Kwality Wall's History"></div>
+            </div>
+            <div class="section" id="purpose"><div class="section-title"><h2>Our Purpose</h2></div><p class="container">We believe in spreading happiness through delightful frozen treats crafted with care.</p></div>
+            <div class="section" id="history"><div class="section-title"><h2>Our History</h2></div><p class="container">Decades of innovation and love for ice cream, serving generations of families.</p></div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column"><h3>Kwality Wall's</h3><p>Bringing joy and happiness through delicious ice cream since 1956.</p>
+                    <div class="social-icons"><a href="#"><i class="fab fa-facebook-f"></i></a><a href="#"><i class="fab fa-twitter"></i></a><a href="#"><i class="fab fa-instagram"></i></a><a href="#"><i class="fab fa-youtube"></i></a></div>
+                </div>
+                <div class="footer-column"><h3>Quick Links</h3><ul class="footer-links"><li><a href="index.html">Home</a></li><li><a href="products.html">Products</a></li><li><a href="about.html">About Us</a></li><li><a href="contact.html">Contact</a></li><li><a href="terms.html">Terms & Conditions</a></li></ul></div>
+                <div class="footer-column"><h3>Products</h3><ul class="footer-links"><li><a href="products.html#cornetto">Cornetto</a></li><li><a href="products.html#cups">Cups</a></li><li><a href="products.html#family">Family Packs</a></li><li><a href="products.html#feast">Feast</a></li><li><a href="products.html#kids">Kids Range</a></li></ul></div>
+                <div class="footer-column"><h3>Newsletter</h3><p>Subscribe to our newsletter for the latest updates and offers.</p>
+                    <form class="newsletter-form"><input type="email" class="newsletter-input" placeholder="Your Email"><button type="submit" class="newsletter-btn"><i class="fas fa-paper-plane"></i></button></form>
+                </div>
+            </div>
+            <div class="footer-bottom"><p>&copy; 2025 Kwality Wall’s. All Rights Reserved. | Privacy Policy | Terms & Conditions — Made with ❤ and lots of ice cream.</p></div>
+        </div>
+    </footer>
+
+    <button class="chatbot-toggle" aria-label="Open chat"><i class="fas fa-comments"></i></button>
+    <div class="chatbot" aria-hidden="true">
+        <div class="chatbot-header"><span>KW Assistant</span><button class="chatbot-close" aria-label="Close chat"><i class="fas fa-times"></i></button></div>
+        <div class="chatbot-body"><div class="chatbot-messages"></div></div>
+        <form class="chatbot-input" onsubmit="return false;"><input type="text" class="chatbot-text" placeholder="Ask about flavors, stores, hours..." aria-label="Chat input"><button class="chatbot-send" aria-label="Send"><i class="fas fa-paper-plane"></i></button></form>
+    </div>
+
+    <button class="back-to-top" aria-label="Back to top"><i class="fas fa-arrow-up"></i></button>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
